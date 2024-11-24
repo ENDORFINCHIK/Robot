@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Купівля робота СяоЧжі</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .buy-button {
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buy-button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Купівля робота СяоЧжі</h1>
+        <p>Інвестуйте у свій мовний розвиток сьогодні!</p>
+    </header>
+    <section>
+        <h2>СяоЧжі — ваш мовний помічник</h2>
+        <p>Ціна: <strong>499 грн</strong></p>
+
+        <!-- Кнопка PayPal -->
+        <form action="https://www.paypal.com/donate" method="post" target="_blank">
+            <input type="hidden" name="business" value="ваша@пошта.com"> <!-- Замість "ваша@пошта.com" впишіть ваш PayPal -->
+            <input type="hidden" name="item_name" value="Робот СяоЧжі">
+            <input type="hidden" name="currency_code" value="UAH">
+            <button class="buy-button" type="submit">Купити зараз через PayPal</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 СяоЧжі. Всі права захищено. <a href="#">Зв'яжіться з нами</a></p>
+    </footer>
+</body>
+</html>

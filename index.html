@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робот СяоЧжі</title>
+    <style>
+         .image-container {
+            text-align: center;
+            max-width: 400px; 
+            margin: 0 auto;
+        }
+        .image-container img {
+            width: 100%; 
+        }
+        .image-container p {
+            text-align: justify; 
+            margin: 10px; 
+        }
+        .container {
+            display: flex; 
+            justify-content: space-between; 
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .sections-container {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start; 
+            gap: 20px; 
+            margin: 20px auto; 
+            max-width: 1200px; 
+            padding: 10px;
+        }
+        section {
+            flex: 1; 
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .buy-button {
+            background-color: #0078d7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .buy-button:hover {
+            background-color: #005bb5;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+        h1 {
+            color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: left; margin-left: 50px; color: white;">Роботи - чудовий інструмент у вивченні мов!</h1>
+    </header>
+    <div class="container">
+        <div class="image-container" align="left">
+            <img src="imges/ukrainian" alt="Український" border="3px" align="right" width="400px" height="400px" style="margin-top: 50px; border-color: #0a70df;">
+            <p>Робот ROYBI — Цей навчальний робот використовує ШІ, щоб допомогти дітям вивчати кілька мов, зокрема англійську, іспанську та мандаринську китайську, через інтерактивні уроки й активності, що адаптуються під вік і інтереси користувача. Він пропонує тисячі заздалегідь підготовлених занять, роблячи навчання веселим за допомогою пісень, історій та розпізнавання мовлення. ROYBI є популярним як вдома, так і в школах.</p>
+        </div>
+        <div class="image-container" align="right">
+            <img src="imges/kids" alt="Англійський" border="3px" align="center" width="400px" height="400px" style="margin-top: 50px; border-color: #0a70df;">
+            <p>Робот Elias — Elias спеціалізується саме на вивченні мов, допомагаючи учням навчатися за допомогою розмов у реальному часі та мовних модулів на різні теми. Робот створений для шкільних занять, підтримує багато мов та дозволяє вчителям налаштовувати уроки під потреби учнів. Elias використовує розпізнавання мовлення та гейміфікацію, щоб заохочувати учнів до навчання у веселому і безпечному середовищі.</p>
+        </div>
+        <div class="image-container" align="center">
+            <img src="imges/chineese" alt="Китайський" border="3px" align="left" width="400px" height="400px" style="margin-top: 50px; border-color: #0a70df;"> 
+            <p>Робот Moxie — Moxie спеціалізується на розвитку соціально-емоційних навичок, але також підтримує мовні й комунікативні здібності. Робот заохочує розвиток словникового запасу і мовлення через розмови, читання вголос та розповідання історій. Завдяки обробці природної мови Moxie взаємодіє більш природно й може емоційно реагувати. </p>
+        </div>
+    </div>
+    <div class="sections-container">
+        <section>
+            <h1>Переваги</h1>
+            <ul>
+                <li><strong style="color: #005bb5;">Персоналізоване навчання:</strong> Робот адаптується до знань користувача...</li>
+                <li><strong style="color: #005bb5;">Інтерактивність:</strong> Фізична присутність робота сприяє цікавості та залученню.</li>
+                <li><strong style="color: #005bb5;">Практика вимови:</strong> ШІ аналізує вимову, коригує помилки.</li>
+                <li><strong style="color: #005bb5;">Підтримка та мотивація:</strong> Робот підтримує під час навчання...</li>
+                <button onclick="window.location.href='catalog.html';" class="buy-button" style="margin-top: 10px;">Дізнатися більше</button>
+            </ul>
+        </section>
+        <section>
+            <h1>Недолік</h1>
+            <ul>
+                <li><strong style="color: #005bb5;">Необхідне</strong> постійне інтернет зʼєднання</li>
+            </ul>
+            <button  onclick="window.location.href='catalog.html';" class="buy-button">Дізнатися більше</button>
+        </section>
+    </div>
+    <section>
+        <h1 style="color: #005bb5;">Пропонуємо переглянити каталог</h1>
+        Тут ви зможете обрати потрібного вам робота. Ми впевнені, в нас є робот саме для ваших потреб <br>
+        <button  onclick="window.location.href='catalog.html';" class="buy-button" style="margin-top: 20px; width: 300px;">Каталог</button>
+    </section>
+    <footer>
+        <p>© 2024 СяоЧжі. Всі права захищено. <a href="#">Зв'яжіться з нами</a></p>
+    </footer>
+</body>
+</html>
